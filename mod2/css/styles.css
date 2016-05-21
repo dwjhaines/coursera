@@ -2,32 +2,47 @@
 * {
   box-sizing: border-box;
 }
+
+body{
+  font-family: Verdana;
+  padding: 0;
+  margin: 0;  
+}
 h1 {
   margin-bottom: 15px;
   text-align: center;
 }
 
+
 section {
   border: 1px solid black;
-  background-color: #2907f6;
-  width: 90%;
+  width: 100%;
   height: 150px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
   color: white;
 }
-p{
-  clear: right;  
+p{ 
+  margin: 10px;
+  clear: right;
+  padding:10px
+}
+#div1{
+    margin: 10px;
+    background-color: #2907f6;
 }
 
 #p1 {
   background-color: #e70c0c;
   float: right;
-  width: 20%;
+  width: 25%;
   height: 20px;
   text-align: center;
   margin-top: 0px;
+  margin-right: 0px;
+  padding: 0;
+  border: 1px solid black;
 }
 
 /* Simple Responsive Framework. */
