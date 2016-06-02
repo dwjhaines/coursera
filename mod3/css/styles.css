@@ -42,11 +42,12 @@ body {
     color:black;
     font-weight: bold;
 }
-.lots-of-text{
-    margin-left:25px;
-    margin-right:250px;
+.lots-of-text p{
+    margin-left:20px;
+    margin-right:20px;
+    padding:10px;
     color:black;
-    background-color:lightgrey;
+    background-color:#ffffb0;
 }
 
 /********** Large devices only **********/
